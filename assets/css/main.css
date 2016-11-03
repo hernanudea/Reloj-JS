@@ -1,0 +1,35 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    width: 80%;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+#fecha, #hora, #indicador, #segundos {
+    margin: auto;
+    width: 80%;
+    background-color: gold;
+    text-align: center;
+}
+
+#fecha {
+    font-size: 4em;
+}
+
+#hora {
+    font-size: 7em;
+}
+
+#indicador {
+    font-size: 3em;
+}
+
+#segundos {
+    font-size: 3em;
+}
