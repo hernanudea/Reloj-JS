@@ -39,7 +39,7 @@
         }
 
         fecha.innerHTML = dias[diaSemanaActual] + " " + diaMesActual + " de " + meses[mesActual] + " de " + anoActual;
-        hora.innerHTML = horaActual + ":" + minutoActual;
+        hora.innerHTML = horaActual + ":" + minutoActual + ":";
         segundos.innerHTML = segundoActual;
     };
     function rellenar(valor) {
