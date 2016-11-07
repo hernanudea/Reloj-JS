@@ -38,7 +38,7 @@
             horaActual = rellenar(horaActual);
         }
 
-        fecha.innerHTML = dias[diaSemanaActual] + " " + diaMesActual + " de " + meses[mesActual] + " de " + anoActual;
+        fecha.textContent = dias[diaSemanaActual] + " " + diaMesActual + " de " + meses[mesActual] + " de " + anoActual;
         hora.innerHTML = horaActual + ":" + minutoActual + ":";
         segundos.innerHTML = segundoActual;
     };
